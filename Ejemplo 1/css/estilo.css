@@ -41,7 +41,7 @@ header nav a {
 }
 
 header nav a:hover {
-  border-bottom: 2px solid yellow;
+  border-bottom: 2px solid #5e9524;
 }
 
 /* aplicamos el estilo al contenedor texto */
@@ -90,6 +90,8 @@ header .contenedortexto .texto .profesion {
   border-radius: 50%;
   vertical-align: top;
   border: 5px solid grey;
+  width: 20%;
+  height: 20%;
 }
 
 .principal .acercade .texto {
@@ -102,12 +104,12 @@ header .contenedortexto .texto .profesion {
   font-size: 35px;
   margin-bottom: 40px;
   font-weight: bolder;
-  color: yellow;
+  color: #5e9524;
 }
 /* ---------------FIN ACERCA DE--------------- */
 /* ---------------TRABAJOS---------------- */
 .principal .trabajos {
-  background: darkgrey;
+  background: #f0f0f0;
   padding: 60px o;
 }
 
@@ -115,7 +117,7 @@ header .contenedortexto .texto .profesion {
   font-size: 35px;
   margin-bottom: 60px;
   font-weight: bolder;
-  color: darkmagenta;
+  color: #451582;
   text-align: center;
 }
 
@@ -164,7 +166,7 @@ footer .contactanos .titulo {
   font-size: 35px;
   margin-bottom: 60px;
   font-weight: bolder;
-  color: darkmagenta;
+  color: #451582;
   text-align: center;
 }
 
@@ -173,7 +175,7 @@ footer .contactanos .formulario {
 }
 
 footer .redessociales {
-  background: darkblue;
+  background: #090637;
   padding: 60px 0;
 }
 
@@ -192,21 +194,24 @@ footer .redessociales .contenedor a {
 }
 
 footer .redessociales .contenedor .facebook:hover {
-  background: red;
+  background: #505990;
 }
 
 footer .redessociales .contenedor .instagram:hover {
-  background: red;
+  background: #013584;
 }
 
 footer .redessociales .contenedor .youtube:hover {
-  background: red;
+  background: #ff0000;
 }
 
 footer .redessociales .contenedor .twitter:hover {
-  background: red;
+  background: #1da1f2;
 }
 
 footer .redessociales .contenedor .github:hover {
-  background: red;
+  background: #6e5404;
 }
+
+/*---------------------------------FIN PIE----------------------------*/
+
